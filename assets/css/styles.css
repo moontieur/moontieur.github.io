@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E5E5E5;
+}
+
+.content-container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sub-content-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+picture {
+  display: flex;
+  align-items: center;
+}
+
+picture img {
+  width: 50%;
+  border-radius:5% 10% 0 10%;
+  border: 5px solid rgb(18, 55, 56);
+  display: flex;
+  align-items: end;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-text {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+
+}
+
+.profile-text h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(18, 55, 56);
+  font-weight: 500;
+}
+
+.profile-text p {
+  font-size: 1.5rem;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.links {
+  display: flex;
+  gap: 20px
+}
+
+.profile-text a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mail p {
+  font-size: 1.0rem;
+}
+
+.cv-download {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(18, 55, 56);
+  gap: 10px;
+}
+
+.cv-download a {
+  color: white;
+  background-color: rgb(18, 55, 56);
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.cv-download i {
+  background-color: rgb(18, 55, 56);
+}
+
+.skillset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  font-size: 2.0rem;
+}
